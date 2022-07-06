@@ -24,8 +24,6 @@ Matrix triagle is:
 ```
 
 
-**Thuật toán này giúp tạo ra phương trình tổng của hàm lũy thừa x ^ n (với n> = 0)**
+## The principle of the algorithm
+The algorithm works by forming a triangular matrix with each value of the matrix being a coefficient of the sum equation. The coefficients of the equation of degree n are the values of the n-th row of the matrix.
 
-## Sử dụng
-python sum_eng.py\
-Sum formula of x^n (n >= 0): <Nhập bậc của hàm số (n)>

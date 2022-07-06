@@ -1,4 +1,4 @@
-# Sum-formula-of-x-n\
+# Formula of power sum 
 This algorithm helps to generate the sum equation of the power function x^n (with n >= 0)
 
 #Usage

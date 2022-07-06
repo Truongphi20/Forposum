@@ -2,8 +2,10 @@
 **This algorithm helps to generate the sum equation of the power function x^n (with n >= 0)**
 
 ## Usage
-python sum_eng.py\
+```python
+python sum_eng.py
 Sum formula of x^n (n >= 0): <Enter degree of function (n)>
+```
 ## Example
 ```python
 python sum_eng.py
@@ -26,4 +28,8 @@ Matrix triagle is:
 
 ## The principle of the algorithm
 The algorithm works by forming a triangular matrix with each value of the matrix being a coefficient of the sum equation. The coefficients of the equation of degree n are the values of the n-th row of the matrix.
+Each value of the matrix is calculated according to the system of equations:
+
+<a href="url"><img src="https://user-images.githubusercontent.com/96680644/177477942-17f6bfe6-edab-4004-a372-496b873bc472.png" align="left" height="210" width="210" ></a>
+
 

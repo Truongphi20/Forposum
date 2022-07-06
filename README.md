@@ -8,8 +8,11 @@ Sum formula of x^n (n >= 0): <Enter degree of function (n)>
 ```
 ## Example
 ```python
+#input
 python sum_eng.py
 Sum formula of x^n (n >= 0): 6
+
+#output
 Sum formula of x^ 6 is:  +1/42*x^1+0*x^2-1/6*x^3+0*x^4+1/2*x^5+1/2*x^6+1/7*x^7
 
 Matrix triagle is:

@@ -1,7 +1,7 @@
 # Formula of power sum 
 **This algorithm helps to generate the sum equation of the power function:** 
 
-![](https://latex.codecogs.com/svg.image?\inline&space;\huge&space;\color{white}f(x)=\sum\limits_{x&space;=&space;1}^x&space;{{x^n}}&space;&space;,\left&space;(&space;n\geq&space;0&space;,\in&space;\mathbb{N}&space;\right&space;))
+![](https://latex.codecogs.com/svg.image?\LARGE&space;\color{White}f(x)=\sum\limits_{x&space;=&space;1}^x&space;{{x^n}}=1^n&plus;2^n&plus;3^n&plus;\cdots&space;&plus;x^n&space;&space;,\left&space;(&space;n\geq&space;0&space;,\in&space;\mathbb{N}&space;\right&space;))
 
 ![](https://latex.codecogs.com/png.image?\inline&space;\huge&space;\dpi{80}\color{white}&space;f(x):&space;\textrm{the&space;power&space;function&space;of&space;n&space;degree}&space;&space;)
 

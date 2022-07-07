@@ -36,7 +36,7 @@ Matrix triagle is:
 ```
 So the equation sum of the power of the sixth power has the form:
 
-![](https://latex.codecogs.com/png.image?\inline&space;\huge&space;\dpi{80}\color{white}&space;f(x)=&space;\frac{1}{42}.x^{1}-\frac{1}{6}.x^{3}&plus;\frac{1}{2}.x^{5}&plus;\frac{1}{2}.x^{6}&plus;\frac{1}{7}.x^{7}&space;)
+![](https://latex.codecogs.com/svg.image?\color{White}f(x)=\sum_{x=1}^{x}x^6=\frac{1}{42}.x^{1}-\frac{1}{6}.x^{3}&plus;\frac{1}{2}.x^{5}&plus;\frac{1}{2}.x^{6}&plus;\frac{1}{7}.x^{7})
 
 ## The principle of the algorithm
 The algorithm works by forming a triangular matrix with each value of the matrix being a coefficient of the sum equation. The coefficients of the equation of degree n are the values of the n-th row of the matrix.

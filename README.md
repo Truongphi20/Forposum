@@ -7,17 +7,36 @@
 
 ![](https://latex.codecogs.com/png.image?\inline&space;\huge&space;\dpi{80}\color{white}&space;n:&space;\textrm{degree&space;of&space;function}&space;&space;)
 ## Usage
-If we want to know the equation of the sum function of the nth power, we run the python script and enter the degree n of the sum function.
 ```python
-python sum_eng.py
-Sum formula of x^n (n >= 0): <Enter degree of function (n)>
+usage: posum.py [-h] [-d DEGREE] [-v] [-s SHOW]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d DEGREE, --degree DEGREE
+  -v, --version         show version
+  -s SHOW, --show SHOW  only showing the formula (f), triagle matrix (m) or both (b)[default]?
 ```
+
+If we want to know the equation of the sum function of the nth power, we run the python script and enter the degree n of the sum function. 
+```python
+python sum_eng.py -d <the degree n>
+```
+The result consists of the power sum formula of n degree and the triangle matrix. Besides, wanting to show either. Let's use the argument -s
+
 ## Example
+Need help to use
+```python
+python sum_eng.py -h
+```
+
+To show version of algorithm.
+```python
+python sum_eng.py -v
+```
 For example, when we want to find the sum function of the power of 6, we run the command and enter the degree of the function as 6.
 ```python
 #input
-python sum_eng.py
-Sum formula of x^n (n >= 0): 6
+python sum_eng.py -d 6
 
 #output
 Sum formula of x^ 6 is:  +1/42*x^1+0*x^2-1/6*x^3+0*x^4+1/2*x^5+1/2*x^6+1/7*x^7

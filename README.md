@@ -19,7 +19,7 @@ optional arguments:
 
 If we want to know the equation of the sum function of the nth power, we run the python script and enter the degree n of the sum function. 
 ```python
-python sum_eng.py -d <the degree n>
+python posum.py -d <the degree n>
 ```
 The result consists of the power sum formula of n degree and the triangle matrix. Besides, wanting to show either. Let's use the argument -s
 

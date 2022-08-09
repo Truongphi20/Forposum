@@ -26,17 +26,17 @@ The result consists of the power sum formula of n degree and the triangle matrix
 ## Example
 Need help to use
 ```python
-python sum_eng.py -h
+python posum.py -h
 ```
 
 To show version of algorithm.
 ```python
-python sum_eng.py -v
+python posum.py -v
 ```
 For example, when we want to find the sum function of the power of 6, we run the command and enter the degree of the function as 6.
 ```python
 #input
-python sum_eng.py -d 6
+python posum.py -d 6
 
 #output
 Sum formula of x^ 6 is:  +1/42*x^1+0*x^2-1/6*x^3+0*x^4+1/2*x^5+1/2*x^6+1/7*x^7

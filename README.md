@@ -61,6 +61,10 @@ So the equation sum of the power of the sixth power has the form:
 The algorithm works by forming a triangular matrix with each value of the matrix being a coefficient of the sum equation. The coefficients of the equation of degree n are the values of the n-th row of the matrix.
 Values of the matrix is calculated according to the system of equations:
 
-<a href="url"><img src="https://latex.codecogs.com/png.image?\inline&space;\huge&space;\dpi{200}\color{white}&space;\left\{&space;\begin{array}{l}{a_{ij}}&space;=&space;\frac{j}{i}&space;\times&space;{a_{(i&space;-&space;1)(j&space;-&space;1)}}\\{a_{10}}&space;=&space;1\\\sum\limits_{k&space;=&space;1}^i&space;{{a_{kj}}{\rm{&space;=&space;&space;1&space;&space;,}}\forall&space;{\rm{i,j}}}&space;\end{array}&space;\right.\" align="center" height="180" width="300" ></a>
+$$\left\{ \begin{array}{l}
+{a_{01}} = 1\\
+{a_{ij}} = \frac{i}{j} \times {a_{_{(i - 1)(j - 1)}}} {\rm{  ,}}\forall i\ge 1,\forall j\ge 2\\
+\sum\limits_{k = 1}^j {{a_{ik}} = 1{\rm{  ,}}\forall i,j} 
+\end{array} \right.$$
 
 

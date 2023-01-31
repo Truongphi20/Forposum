@@ -67,4 +67,6 @@ $$\left\{ \begin{array}{l}
 \sum\limits_{k = 1}^j {{a_{ik}} = 1{\rm{  ,}}\forall i,j} 
 \end{array} \right.$$
 
+## Application
 
+- [Create sum formula of polinomial functions](https://github.com/Truongphi20/sumfor) 
